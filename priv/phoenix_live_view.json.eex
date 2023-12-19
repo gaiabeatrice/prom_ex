@@ -1317,7 +1317,7 @@
         "datasource": "<%= @datasource_id %>",
         "definition": "label_values(<%= @prom_ex_metric_prefix %>_status_info, instance)",
         "hide": 0,
-        "includeAll": false,
+        "includeAll": true,
         "label": "Application Instance",
         "multi": false,
         "name": "instance",
